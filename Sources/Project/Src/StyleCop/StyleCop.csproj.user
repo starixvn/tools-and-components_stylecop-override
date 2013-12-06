@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <StartAction>Program</StartAction>
+    <StartProgram>C:\Tools\Net.SF.StyleCopCmd.Console\Net.SF.StyleCopCmd.Console.exe</StartProgram>
+    <StartArguments>-r -f "C:\Users\Jacob.Phan\Documents\Visual Studio 2010\Projects\Test\Test\MyClass.cs" -tf "C:\Tools\Net.SF.StyleCopCmd.Console\StyleCopReport.xsl" -of "C:\Tools\Net.SF.StyleCopCmd.Console\stylecop.xml" -sc "C:\Program Files (x86)\StyleCop 4.7\Settings.StyleCop"</StartArguments>
+  </PropertyGroup>
+</Project>
