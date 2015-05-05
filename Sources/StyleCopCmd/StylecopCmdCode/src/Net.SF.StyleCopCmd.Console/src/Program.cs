@@ -73,7 +73,6 @@ namespace Net.SF.StyleCopCmd.Console
                 {
                     PrintUsageAndHelp();
                     Environment.Exit(0);
-                    return;
                 }
 
                 var violationCount = (new StyleCopReport()).ReportBuilder()
@@ -88,8 +87,7 @@ namespace Net.SF.StyleCopCmd.Console
                     .WithOutputEventHandler(OutputGenerated)
                     .Create(cl.GetOptionValue("of"));
 
-                var exitCode = violationCount > 0 ? 1 : 0;
-                Environment.Exit(exitCode);
+                Environment.Exit(violationCount);
             }
             catch (Exception e)
             {

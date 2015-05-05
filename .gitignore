@@ -76,3 +76,5 @@ UpgradeLog*.XML
 
 # Zeta Resource Editor
 *.zreproj
+*StyleCop.Cache
+*.suo

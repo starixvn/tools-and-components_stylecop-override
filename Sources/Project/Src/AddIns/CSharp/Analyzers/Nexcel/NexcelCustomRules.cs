@@ -29,8 +29,6 @@ namespace StyleCop.CSharp.Nexcel
             _rules = new Dictionary<RuleType, CustomRule>();
 
             Add(new EX1001());
-            Add(new EX1002());
-            Add(new EX1003());
             Add(new SP2100());
             Add(new SP2101());
             Add(new SP2102());
